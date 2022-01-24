@@ -15,7 +15,7 @@
 .avatar {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 18px;
   background: #2b323a;
   vertical-align: middle;
   min-height: 140px;
@@ -23,4 +23,9 @@
   width: 140px;
   aspect-ratio: auto 140 / 140;
   height: 140px;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
