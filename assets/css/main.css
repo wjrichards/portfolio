@@ -31,6 +31,7 @@ section {
 }
 
 .link {
+  color: rgb(0, 110, 110);
   text-decoration: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
