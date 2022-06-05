@@ -97,10 +97,10 @@ Welcome to My domain">
             <h2>Get In Touch</h2>
             <p class="lead">Don't hesitate to write me at&nbsp;<a class="link" href="mailto:mail@warrenrichards.com">mail@warrenrichards.com</a>&nbsp;or via the form below.</p>
             <div class="py-4 col-6">
-                <form method="post">
-                    <div class="mb-4"><input class="form-control" type="text" id="name" name="name" placeholder="Name"></div>
-                    <div class="mb-4"><input class="form-control" type="email" id="email" name="email" placeholder="Email"></div>
-                    <div class="mb-4"><textarea class="form-control" id="message" name="message" placeholder="Message" row="6"></textarea></div><button class="btn btn-primary d-block w-100" type="submit">Send Message</button>
+                <form data-bss-recipient="b0a7bf883948f8cbf028c6ad85699273">
+                    <div class="mb-4"><input class="form-control" type="text" id="name" name="name" placeholder="Name" required=""></div>
+                    <div class="mb-4"><input class="form-control" type="email" id="email" name="email" placeholder="Email" required=""></div>
+                    <div class="mb-4"><textarea class="form-control" id="message" name="message" placeholder="Message" row="6" required="" maxlength="10"></textarea></div><button class="btn btn-primary d-block w-100" type="submit">Send Message</button>
                 </form>
             </div>
         </div>
@@ -116,6 +116,7 @@ Welcome to My domain">
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
 </body>
 
 </html>
