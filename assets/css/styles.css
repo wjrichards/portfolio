@@ -7,3 +7,16 @@ header, section {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+.avatar {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  background: #2b323a;
+  vertical-align: middle;
+  min-height: 140px;
+  min-width: 140px;
+  width: 180px;
+  aspect-ratio: auto 140 / 140;
+  height: 180px;
+}
+
