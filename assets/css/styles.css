@@ -8,7 +8,6 @@ header, section {
 }
 
 .avatar {
-  -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
   background: #2b323a;
@@ -18,5 +17,9 @@ header, section {
   width: 180px;
   aspect-ratio: auto 140 / 140;
   height: 180px;
+}
+
+.html, .php, .css, .js {
+  width: 100%;
 }
 
